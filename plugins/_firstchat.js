@@ -15,7 +15,7 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
         await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/606ecba4019ea293aa26f.jpg', ` ${ucapan()}, @${m.sender.split`@`[0]}
  ${user.banned ? 'kamu dibanned' : `
-Halo user saya Luminous-bot, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
+Hello! honey....🍓 i'am mitsuha, how can i help you?
 
 *[❗] JANGAN SPAM BIAR GA DELAY*.`} 
  `.trim(), hao, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '!owner' : '.menu', 'Owner', '.owner', 'Verify', '.daftar ${conn.getName(m.sender)}.16', m) 
