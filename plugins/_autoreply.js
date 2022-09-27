@@ -23,8 +23,8 @@ let fs = require('fs')
      // ketika ada yang invite/kirim link grup di chat pribadi 
      if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) { 
          this.sendTemplate2ButtonLoc(m.chat, 'https://telegra.ph/file/d75ed6e82e964778e169e.jpg', `┌「 *Undang Bot ke Grup* 」 
- ├ 7 Hari / Rp 5,000 
- ├ 30 Hari / Rp 15,000 
+ ├ https://wa.me/p/5448765061838359/94726083178
+ ├ Free
  └──── 
  `, wm, 'Pemilik Bot', '.owner', m) 
      } 
@@ -54,7 +54,7 @@ let fs = require('fs')
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://wa.me/62895627514070', 
+                 sourceUrl: 'https://wa.me/94726083177', 
              title: 'Ray', 
              body: '', 
            thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
@@ -74,8 +74,8 @@ let fs = require('fs')
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`🥀 Active: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Ray`).catch(_ => _)  
-          setting.status = new Date() * 1  
+        await this.setBio(`🥀 Active: ${uptime} | 🔥Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 🍒 Made Lakshan`).catch(_ => _)
+          setting.status = new Date() * 1  
       } 
   
      // backup db 
